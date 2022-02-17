@@ -1,0 +1,46 @@
+body{
+    padding:0;
+}
+header{
+    background-color: rgb(131, 74, 27); 
+    margin: 0;padding-bottom: 50px;
+}
+footer{
+    background-color: rgb(131, 74, 27); 
+}
+
+.white-text{
+    text-align: center; 
+    color: white;
+}
+
+.menu-left{
+   background-color: orange;
+   margin: 0;
+   padding-bottom: 100px;
+}
+
+.content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.top-menu{
+    background-color: rgb(238, 99, 99);
+    margin: 0;
+ }
+
+.black-text{
+    text-align: center; 
+    color: black;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.photo-blue{
+    background-color: rgb(94, 94, 223);
+}
+
+.photo-red{
+    background-color: rgb(202, 79, 79);
+}
