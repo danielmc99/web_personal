@@ -4,119 +4,125 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Roboto+Serif:ital,wght@0,100;0,200;1,100;1,300&display=swap" rel="stylesheet">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
     <title>Pagina Personal</title>
 </head>
 <body>
-    <div class="container-fluid" >
-        <header class="col-12 header">
-            <div class="white-text" >
-                Banner
-            </div>
-        </header>
-        <section>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2 menu-left d-none d-sm-block"  >
-                        <div class="white-text">
-                            Menu left
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-10">
-                        <div class="row">
-                            <div class="col-12 top-menu" >
-                                <div  class="white-text">
-                                    Top Menu
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 col-md-6" >
-                                <div  class="black-text content">
-                                    Main content A
-                                </div> 
-                            </div>
-                            <div class="col-12 col-md-6 align-items-center">
-                                <div  class="black-text content">
-                                    Main content B
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-4 col-md-2 photo-red">
-                                <div  class="black-text">
-                                    Photo 1
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-2 photo-blue">
-                                <div  class="black-text">
-                                    Photo 2
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-4 photo-red">
-                                <div  class="black-text">
-                                    Photo 3
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-2 photo-blue">
-                                <div  class="black-text">
-                                    Photo 4
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-2 photo-red">
-                                <div  class="black-text">
-                                    Photo 5
-                                </div>
-                            </div>
 
-                        </div>
-                        <div class="row">
-                            <div class="col-12" >
-                                <div  class="black-text content">
-                                    Main content C
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6 col-sm-4 col-md-2 photo-blue">
-                                <div  class="black-text">
-                                    Photo 6
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-2 photo-red">
-                                <div  class="black-text">
-                                    Photo 7
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-4 photo-blue">
-                                <div  class="black-text">
-                                    Photo 8
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-2 photo-red">
-                                <div  class="black-text">
-                                    Photo 9
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-2 photo-blue">
-                                <div  class="black-text">
-                                    Photo 10
-                                </div>
-                            </div>
-                        </div>
+
+    <header id="header">
+           
+        <div class="d-flex flex-column .d-sm-none .d-md-block">
+    
+            <div class="profile">
+                <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                <h1 class="text-light"><a href="pag_personal.html">Daniel Camargo</a></h1>
+                <div class="social-links mt-3 text-center">
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="mail"><i class="bx bxl-mail"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>  
+
+                <!-- .navigation-menu -->
+
+            <nav id="NavBar" class="nav-menu navbar">
+                <ul>
+                    <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="#hobbies" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Hobbies</span></a></li>
+                    <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skills</span></a></li>       </ul>
+            </nav> 
+                
+        </div>
+
+    </header>
+
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+      <div class="hero-container" data-aos="fade-in">
+        <h1>Daniel Camargo</h1>
+        <p>I'm </p>
+      </div>
+    </section><!-- End Hero -->
+
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container-fluid">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                    <p>I am an electronical engineer with focus in design of electronical systems. I am interested in digital design and machine learning. I worked several years with my father in sales. In collage takes some classes of administration and countability. I made volunteers as teacher and big brother programs.</p>
+                </div>
+
+                <div class="col-lg-4" data-aos="fade-right">
+                  <img src="img\tchoukball.jpg" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+        </section><!-- End About Section -->
+
+
+        <!-- ======= About Section ======= -->
+        <section id="hobbies" class="hobbies">
+            <div class="container-fluid">
+
+                <div class="section-title">
+                    <h2>Hobbies and interest</h2>
+                    <p>I love to learn new things from sociology to astronomy. I’m a huge fan of sports, my favorite is basketball. I practiced several sports, since the common ones like basketball and volleyball to some more uncommon like athletics sprinter and tchoukball. Recently I’m learning how to play squash and had become an F1 fan. I’m very good and really likes to solve jigsaws. I have a big collection of keychains. I like to listen rock music especially in English and from the 70s until 90s. I really like videogames of all kind. </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                      <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
                     </div>
                 </div>
+            
+                        
             </div>
-        </section>
-        <footer class="col-12">
-            <div  class="white-text">
-                Footer
-            </div>
-        </footer>
-    </div>
 
+        </section><!-- End About Section -->
+
+
+                <!-- ======= About Section ======= -->
+        <section id="skills" class="skills">
+            <div class="container-fluid">
+
+              <div class="section-title">
+                <h2>Skills</h2>
+                <p>I have knowledge in multiple programming languages. The most significant are Python, JavaScript, Assembler and HTML. I’m very capable at giving solution to stablished problems with the design electronical devices. I can do 3D modeling.  I’m very communicative and flexible at work. </p> 
+              </div>
+
+                
+            
+                        
+            </div>
+
+        </section><!-- End About Section -->
+        
+
+        
+
+    </main>
     
+
+    <div class="container-fluid">
+        <div  class="white-text">
+            Footer
+        </div>
+    </footer>
 </body>
 </html>
