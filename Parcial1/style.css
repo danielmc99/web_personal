@@ -1,17 +1,11 @@
-/* Home / Desktop */
-
-#home{   
-position: relative;
-width: 1440px;
-height: 1078px;
-
-background: #FFFFFF;
-
+*{
+    font-family: 'Roboto';
 }
+
+
 /* Rectangle 1 */
-#header{
-position: absolute;
-width: 1440px;
+.header{
+
 height: 110px;
 left: 0px;
 top: 29px;
@@ -20,28 +14,17 @@ background: #FFFFFF;
 }
 
 /* Restaurant & Lounge */
-#restaurant{
-position: absolute;
-width: 344px;
-height: 62px;
-left: 42px;
-top: 56px;
-
-font-family: 'Rochester';
+.restaurant{
+font-family: 'Rochester' ;
 font-style: normal;
-font-weight: 400;
 font-size: 48px;
-line-height: 62px;
-/* identical to box height */
-
 color: #000000;
 }
 
 
 /* Rectangle 2 */
-#nav_menu{
-position: absolute;
-width: 1440px;
+.nav_menu{
+ 
 height: 81px;
 left: 0px;
 top: 514px;
@@ -49,107 +32,22 @@ top: 514px;
 background: #333A40;
 
 }
-/* Burguers */
-#burguers
-{
-position: absolute;
-width: 86px;
-height: 27px;
-left: 53px;
-top: 541px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px;
-text-decoration-line: underline;
-
-color: #FFFFFF;
-}
-
-
-/* Tacos */
-#tacos{
-position: absolute;
-width: 86px;
-height: 27px;
-left: 187px;
-top: 541px;
-
-font-family: 'Roboto';
-font-style: normal;
+.nav_text{
 font-weight: 400;
 font-size: 18px;
 line-height: 21px;
-
-color: #FFFFFF;
+color: #FFFFFF !important;
 }
-
-
-/* Salads */
-#salads{
-position: absolute;
-width: 86px;
-height: 27px;
-left: 321px;
-top: 541px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-
-color: #FFFFFF;
-}
-
-
-/* Desserts */
-#desserts{
-position: absolute;
-width: 86px;
-height: 27px;
-left: 455px;
-top: 541px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
-
-color: #FFFFFF;
-}
-
-
 /* Drinks & Sides */
-#drinks{
-position: absolute;
-width: 156px;
-height: 27px;
-left: 589px;
-top: 541px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 21px;
+.category{
+ 
 
-color: #FFFFFF;
-
-}
-
-/* BURGUERS */
-#category{
-position: absolute;
-width: 1410px;
 height: 35px;
 left: calc(50% - 1410px/2 + 15px);
 top: calc(50% - 35px/2 + 103.5px);
 
-font-family: 'Roboto';
+ 
 font-style: normal;
 font-weight: 700;
 font-size: 30px;
@@ -161,9 +59,8 @@ color: #000000;
 
 
 /* unsplash:LV2p9Utbkbw */
-#banner{
-position: absolute;
-width: 1440px;
+.banner{
+ 
 height: 344px;
 left: 0px;
 top: 149px;
@@ -172,81 +69,52 @@ background: url("./image/banner.jpg");
 }
 
 /* image 1 */
-#shop{
-position: absolute;
-width: 80px;
-height: 81px;
-left: 1257px;
-top: 43px;
+.shop{
+ 
+align-items: flex-end;
 
 background: url(image.png);
 }
 
 /* Line 1 */
-#linea1{
-position: absolute;
-width: 1440px;
-height: 0px;
-left: 0px;
-top: 504px;
-
+.linea1{
 border: 1px solid #000000;
 }
 
-/* Line 2 */
-#linea1{
-position: absolute;
-width: 1440px;
-height: 0px;
-left: 0px;
-top: 124px;
-
-border: 1px solid #000000;
-}
 
 /* Rectangle 10 */
-#product_box{
-position: absolute;
+.product_box{
+ 
 width: 262px;
 height: 327px;
-left: 182px;
-top: 677px;
 
+align-items: center;
 border: 1px solid rgba(0, 0, 0, 0.11);
 box-sizing: border-box;
 }
 
 /* Line 4 */
-#linea4{
-position: absolute;
-width: 1129px;
-height: 0px;
-left: 168px;
-top: 665px;
+.linea4{
 
+top: 665px;
+text-align: center;
 border: 1px solid #000000;
 }
 
 /* unsplash:XdNgE6NIHp4 */
-#image{
-position: absolute;
+.image{
+ 
 width: 175px;
 height: 130px;
 left: 228px;
 top: 692px;
 
-background: url("./image/burguer.png");
 
+align-items: center;
 }
 /* Veggie Burguer */
-#name{
-position: absolute;
-width: 188px;
-height: 37px;
-left: 219px;
-top: 831px;
+.name{
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
@@ -258,14 +126,10 @@ color: #000000;
 
 
 /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor inciostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. */
-#description{
-position: absolute;
-width: 212px;
-height: 70px;
-left: 201px;
-top: 860px;
+.description{
 
-font-family: 'Roboto';
+text-align: center;
+ 
 font-style: normal;
 font-weight: 300;
 font-size: 12px;
@@ -276,14 +140,8 @@ color: #000000;
 
 }
 /* $10.23 */
-#price{
-position: absolute;
-width: 39px;
-height: 14px;
-left: 200px;
-top: 939px;
-
-font-family: 'Roboto';
+.price{ 
+text-align: center;
 font-style: normal;
 font-weight: 800;
 font-size: 12px;
@@ -295,8 +153,8 @@ color: #000000;
 
 
 /* Rectangle 11 */
-#add_to_cart{
-position: absolute;
+.add_to_cart{
+ 
 width: 96px;
 height: 33px;
 left: 265px;
@@ -308,18 +166,11 @@ box-sizing: border-box;
 }
 
 /* Add to cart */
-#add_text{
-position: absolute;
-width: 60px;
-height: 14px;
-left: 283px;
-top: 970px;
-
-font-family: 'Roboto';
+.add_text{
+text-align: center;
 font-style: normal;
 font-weight: 700;
 font-size: 12px;
-line-height: 14px;
 /* identical to box height */
 
 color: #000000;
@@ -328,14 +179,8 @@ color: #000000;
 
 
 /* Contact us: +57 3102171020 - info@restaurant.com - @restaurant */
-#contacto{
-position: absolute;
-width: 1440px;
-height: 27px;
-left: 0px;
-top: 1037px;
+.footer{
 
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 12px;
